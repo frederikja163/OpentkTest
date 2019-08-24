@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="AdvancedDLSupport">
+      <HintPath>..\..\..\..\Silk\Samples\src\Basic Tutorials\Tutorial 1.1\bin\Debug\netcoreapp3.0\AdvancedDLSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenGL_Bindings">
+      <HintPath>..\..\..\opentk\bin\OpenGL_Bindings\OpenGL_Bindings.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenGL_Bindings_4.6">
+      <HintPath>..\..\..\opentk\bin\OpenGL_Bindings_4.6\OpenGL_Bindings_4.6.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenToolkit.Core">
+      <HintPath>..\..\..\opentk\bin\OpenToolkit.Windowing.Desktop\OpenToolkit.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenToolkit.GraphicsLibraryFramework">
+      <HintPath>..\..\..\opentk\bin\OpenToolkit.Windowing.Desktop\OpenToolkit.GraphicsLibraryFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenToolkit.Input">
+      <HintPath>..\..\..\opentk\bin\OpenToolkit.Input\OpenToolkit.Input.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenToolkit.Mathematics">
+      <HintPath>..\..\..\opentk\bin\OpenToolkit.Windowing.Desktop\OpenToolkit.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenToolkit.Windowing.Common">
+      <HintPath>..\..\..\opentk\bin\OpenToolkit.Windowing.Desktop\OpenToolkit.Windowing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenToolkit.Windowing.Desktop">
+      <HintPath>..\..\..\opentk\bin\OpenToolkit.Windowing.Desktop\OpenToolkit.Windowing.Desktop.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
