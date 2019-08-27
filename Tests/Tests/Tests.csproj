@@ -7,14 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="AdvancedDLSupport">
-      <HintPath>..\..\..\..\Silk\Samples\src\Basic Tutorials\Tutorial 1.1\bin\Debug\netcoreapp3.0\AdvancedDLSupport.dll</HintPath>
-    </Reference>
     <Reference Include="OpenGL_Bindings">
       <HintPath>..\..\..\opentk\bin\OpenGL_Bindings\OpenGL_Bindings.dll</HintPath>
     </Reference>
-    <Reference Include="OpenGL_Bindings_4.6">
-      <HintPath>..\..\..\opentk\bin\OpenGL_Bindings_4.6\OpenGL_Bindings_4.6.dll</HintPath>
+    <Reference Include="OpenGL_Bindings">
+      <HintPath>..\..\..\opentk\bin\OpenGL_Bindings.dll</HintPath>
     </Reference>
     <Reference Include="OpenToolkit.Core">
       <HintPath>..\..\..\opentk\bin\OpenToolkit.Windowing.Desktop\OpenToolkit.Core.dll</HintPath>
@@ -34,6 +31,10 @@
     <Reference Include="OpenToolkit.Windowing.Desktop">
       <HintPath>..\..\..\opentk\bin\OpenToolkit.Windowing.Desktop\OpenToolkit.Windowing.Desktop.dll</HintPath>
     </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AdvancedDLSupport" Version="3.0.0" />
   </ItemGroup>
 
 </Project>
